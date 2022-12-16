@@ -43,7 +43,8 @@ fn part_two(contents: &str) -> u32 {
             match common {
                 Some(x) => {
                     score += x;
-                    three_lines = vec!();                                   },
+                    three_lines = vec!();
+                },
                 None => {
                     panic!("BAD");
                 },
